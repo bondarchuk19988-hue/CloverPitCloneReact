@@ -1,0 +1,9 @@
+.ruchkabut{
+    position: relative;
+  left: 230px; 
+  bottom:  720px; 
+  width: 260px;
+  height: 220px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}

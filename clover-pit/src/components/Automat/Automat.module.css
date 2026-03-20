@@ -1,0 +1,42 @@
+.automatBek{
+    background: #4e3c0b;
+}
+.ConAutomat {
+    color: #000;
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+}
+ .ruchka{
+    width: 361px;
+    height: 830px;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.automat{
+    display: grid;
+    background-color: #575451;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    grid-template-rows: 1fr 7fr;
+}
+.automat .upTabloAutomat{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 100%;
+    height: 100px;
+}
+.automatAndRuchka{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.displeiData{
+    display: flex;
+    background-color: black;
+    color: #bb6e17;
+    justify-content: center;
+}
+.dwTabloAutomat{
+    background-color: #000;
+    margin: 50px;
+}

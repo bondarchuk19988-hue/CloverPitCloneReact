@@ -1,0 +1,6 @@
+.appWrapper{
+  margin: 0 auto;
+  display: grid;
+  width: auto;
+  grid-template-rows: 8fr 2fr;
+}

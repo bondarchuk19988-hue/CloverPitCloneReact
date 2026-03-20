@@ -1,0 +1,46 @@
+.slotContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.lain1 img, .lain2 img, .lain3 img {
+        width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lain1 img, .lain2 img, .lain3 img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+/* Альтернативный вариант с использованием grid */
+.slotContainerGrid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.rowGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}

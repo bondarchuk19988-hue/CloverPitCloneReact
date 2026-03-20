@@ -1,0 +1,93 @@
+.choosingspins {
+    color: #bb6e17;
+    display: grid;
+    grid-template-areas: "main";
+    width: 100%;
+    min-height: 820px; 
+    height: 100%; 
+    position: relative;
+}
+
+.game {
+    grid-area: main;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    pointer-events: none; 
+    z-index: 1;
+}
+
+.goGame {
+    grid-area: main;
+    width: 100%;
+    height: 100%; 
+    opacity: 0;
+    cursor: pointer;
+}
+.choosingRoles{
+    color: #bb6e17;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; 
+    z-index: 1;
+}
+.choice{
+    color: #bb6e17;
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    pointer-events: none;
+    z-index: 1;
+}
+*{
+    color: #bb6e17;
+}
+.invisibleButton {
+    background: none;
+    border: none;
+    color: #bb6e17; /* наследует цвет текста */
+    font-size: 70px;
+    cursor: pointer;
+    padding: 0;
+    margin: 10px 0;
+    font-family: inherit;
+    width: auto;
+    height: auto;
+    opacity: 1; /* текст полностью видим */
+    pointer-events: auto; /* кнопка кликабельна */
+    position: relative;
+    top: 100px;
+}
+
+.invisibleButton:hover {
+    text-decoration: underline; /* эффект при наведении */
+    opacity: 0.9;
+}
+
+.invisibleButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.choice {
+    color: #bb6e17;
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    /* убираем pointer-events: none отсюда */
+    z-index: 1;
+}

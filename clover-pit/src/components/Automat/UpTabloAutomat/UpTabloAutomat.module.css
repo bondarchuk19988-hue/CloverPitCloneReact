@@ -1,0 +1,7 @@
+.displeiData{
+    display: flex;
+    background-color: black;
+    color: #bb6e17;
+    justify-content: center;
+    font-size: 55px;
+}
