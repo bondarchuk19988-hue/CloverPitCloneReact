@@ -2,6 +2,7 @@
   "name": "clover-pit",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://CloverPitCloneReact.github.io/clover-pit", 
   "type": "module",
   "scripts": {
     "dev": "vite",
